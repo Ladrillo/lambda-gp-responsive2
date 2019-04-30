@@ -1,0 +1,120 @@
+:root {
+  font-size: 62.5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ========================= PETS CONTAINER */
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  border: 1rem solid lightsteelblue;
+  background-color: lightsteelblue;
+}
+.container header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between; 
+  align-items: baseline;
+  padding: 2rem;
+  color: white;
+}
+@media(max-width:550px) {
+  .container header {
+    flex-direction: column;
+  }
+}
+.container a {
+  font-size: 2rem;
+  color: inherit;
+  opacity: 0.7;
+}
+.container h1, .container h3 {
+  font-weight: bold;
+}
+.container h1 {
+  font-size: 4rem;
+}
+.container h3 {
+  font-size: 3rem;
+}
+.container section {
+  color: darkslategrey;
+}
+.container section p {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.container section p:nth-of-type(1) {
+  color: darkslategrey;
+}
+.container section p:nth-of-type(2) {
+  color: blue;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container .boxes {
+  display: flex;
+}
+@media(max-width: 600px) {
+  .container .boxes {
+    flex-direction: column;
+  }
+}
+.container .box {
+  padding: 2rem 1.5rem;
+}
+.box.box-a {
+  background-color: lightcoral;
+}
+.box.box-b {
+  background-color: lightgray;
+  border: .7rem dashed black;
+}
+.box.box-c {
+  background-color: lightgoldenrodyellow;
+}
+/* ========================= BUTTONS */
+.buttons {
+  display: flex;
+  padding: 2rem;
+}
+.buttons button.bad {
+  font-size: 10px;
+  padding: 6px 16px;
+  border: 1px solid #446d88;
+  background: #58a linear-gradient(#77a0bb, #58a);
+  border-radius: 4px;
+  box-shadow: 0 1px 5px gray;
+  color: white;
+  text-shadow: 0 -1px 1px #335166;
+}
+/* ========================= THINGS PERCENTAGES */
+.things {
+  display: flex;
+  border: 2rem dashed black; 
+}
+.things .thing {
+  height: 200px;
+  width: 100px;
+}
+.thing.thing-1 {
+  background-color: red;
+}
+.thing.thing-2 {
+  background-color: grey;
+}
+.thing.thing-3 {
+  background-color: orange;
+}
+/* ========================= FONTS */
+.fonts {
+  padding: 1rem;
+}
+/* ========================= HIDDEN */
+.hidden {
+  display: none;
+}
