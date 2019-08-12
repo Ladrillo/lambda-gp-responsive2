@@ -1,5 +1,5 @@
 :root {
-  font-size: 62.5%;
+  font-size: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -141,7 +141,7 @@ section.hamsters {
 /* ========================= FONTS */
 
 .fonts {
-  padding: 1rem;
+  font-size: 100%; /* this is set by the reset */
 }
 
 /* ========================= HIDDEN */
