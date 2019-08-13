@@ -119,6 +119,8 @@ section.hamsters {
 .boxes {
   display: flex;
   border: 2rem dashed black;
+  width: 50vw;
+  height: 50vh;
 }
 
 .boxes .box {
